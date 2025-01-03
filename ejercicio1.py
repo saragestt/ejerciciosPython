@@ -1,14 +1,14 @@
-#Crea un algoritmo que pida un numero y diga al usuario si es positivo, negativo o cero
+#Crear un algoritmo que pida al usuario un número y le diga si es positivo,
+#negativo o cero.
 
-numero = int(input("Introduce un numero:\n"))
+inserta_numemro = int(input("Introduce un numero:\n"))
 
-if numero > 0:
-    resultado = "Positivo"
+if inserta_numemro == 0:
+    resultado = ("cero")
+elif inserta_numemro <0:
+    resultado = ("negativo")
+else:
+    resultado = ("positivo")
 
-elif numero < 0:
-    resultado = "Negativo"
+print(f"Es: {resultado}")
 
-elif numero == 0:
-    resultado = "0"
-
-print(f"El resultado es: {resultado}")
