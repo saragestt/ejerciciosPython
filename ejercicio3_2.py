@@ -17,7 +17,7 @@ elif pregunta_numero == 2:
     else:
         print("No es correcto")
 elif pregunta_numero == 3:
-    t2 = input("Dime la tabla del 3 (Solo el resultado):\n")
+    t3 = input("Dime la tabla del 3 (Solo el resultado):\n")
     if t3 == "3,6,9,12,15,18,21,24,27,30":
         print("Es correcto")
     else:
