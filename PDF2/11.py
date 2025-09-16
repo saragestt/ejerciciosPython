@@ -1,0 +1,1 @@
+#Haz un algoritmo para pasar expresar en binario un número decimal positivo.
